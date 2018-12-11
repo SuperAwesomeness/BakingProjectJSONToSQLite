@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                     recipe3.getIngredients().size(),
                     recipe3.getSteps().size());
 
-            Recipe recipe4 = recipe_dao.queryForId(1);
+            Recipe recipe4 = recipe_dao.queryForId(4);
             final String recipeSummary4 = String.format("'%s' has %d ingredient(s) and %d step(s)",
                     recipe4.getName(),
                     recipe4.getIngredients().size(),
